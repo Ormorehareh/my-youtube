@@ -1,0 +1,173 @@
+body{
+  margin: 0;
+}
+.header{
+  background-color: white;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom-color: rgb(231, 229, 229);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.first-box{
+  display: flex;
+  align-items: center;
+}
+.second-box{
+  display:flex;
+  flex: 1;
+  margin-left: 150px;
+  margin-right: 150px;
+  align-items: center;
+}
+.third-box{
+  display: flex;
+  align-items: center;
+}
+.menu-icon-box{
+  position: relative;
+}
+.menu-icon-box:hover .tool-tip{
+  opacity: 1;
+}
+.menu-icon{
+  width: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.youtube-logo-icon-box:hover .tool-tip{
+  opacity: 1;
+}
+.youtube-logo-icon{
+  width:110px;
+  cursor: pointer;
+}
+.search-bar{
+  height:40px;
+  font-size:24px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+  flex: 1;
+  cursor: pointer;
+}
+.search-bar-box{
+  display:flex;
+  flex: row;
+  flex: 1;
+}
+.search-bar::placeholder{
+  font-weight: bold;
+}
+.search-icon-box{
+  width:100px;
+  height:45px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-width: 1px;
+  border-color: grey;
+  position: relative;
+}
+.search-button-box:hover .tool-tip{
+  opacity: 1;
+}
+.search-icon{
+  width:35px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.voice-search-box{
+  margin-left: 20px;
+  height:45px;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+}
+.voice-search-button-box:hover .tool-tip{
+  opacity: 1;
+}
+.voice-search-icon{
+  width:35px;
+  cursor: pointer;
+
+}
+.upload-icon-box{
+  padding-left: 10px;
+}
+.upload-icon-box:hover .tool-tip{
+  opacity: 1;
+}
+.upload-icon{
+  width: 40px;
+  cursor: pointer;
+  
+}
+.youtube-app-icon-box{
+  margin-left: 20px;
+  cursor: pointer;
+}
+.youtube-app-icon-box:hover .tool-tip{
+  opacity: 1;
+}
+.youtube-app-icon{
+  width: 40px;
+  cursor: pointer;
+}
+.notification-icon-box{
+  margin-left: 20px;
+  position: relative; 
+}
+.notification-icon-box:hover .tool-tip{
+  opacity: 1;
+}
+.notification-icon{
+  width: 40px;
+  cursor: pointer;
+}
+.tool-tip{
+  background-color: rgb(172, 170, 170);
+  height: 30px;
+  position: absolute;
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 10px;
+  opacity:0;
+  font-size: 20px;
+  border-radius: 5px;
+  z-index: 2;
+  
+}
+.notification-count{
+  background-color: red;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  border-radius: 20px;
+  top: 1px;
+  left: 17px;
+}
+.image-icon-box{
+  margin-left: 20px;
+  margin-right: 30px;
+}
+.image-icon{
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
